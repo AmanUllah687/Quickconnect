@@ -1,0 +1,296 @@
+body {
+  text-align: center;
+  background-image: url("hot-line-contact-us-call-center-search-interface (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-div {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: auto;
+  width: 480px;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+h4 {
+	
+  color: #000080;
+  margin-top: 20px;
+}
+
+input {
+  margin: auto;
+  margin-bottom: 20px;
+}
+input#name {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("user-regular.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+input#password {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("key-solid.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+input#text {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("envelope-open-regular.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+input#contact {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("phone-solid.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+input#gender {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+input#gender1 {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("phone-solid.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+input#hobby {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("phone-solid.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+input#hobby1{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("phone-solid.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+select {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("graduation-cap-solid.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  background-size: 20px 25px;
+}
+button {
+  font-size: 20px;
+  background-color: #ff9900;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  height: 35px;
+  width: 145px;
+  margin-bottom: 30px;
+}
+span {
+  color: red;
+}
+@media screen and (max-width: 480px) {
+  body {
+	background-size: 100% 1300px;
+
+  }
+  .main-div {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px;
+  }
+  label {
+    display: block;
+  }
+  textarea {
+    width: 55%;
+  }
+  input#fileInput {
+    width: 50%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-size: 100% 1300px;
+  }
+  .main-div {
+    width: 70%;
+  }
+  label {
+    display: block;
+  }
+  button {
+    width: 145px;
+    margin-top: 25px;
+  }
+  input#fileInput {
+    width: 50%;
+    text-align: center;
+  }
+  textarea {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  body {
+    background-size: 100% 1300px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-size: 100% 1300px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-size: 100% 1024px;
+  }
+}
+@media screen and (min-width: 769px) {
+	body {
+		background-size: 100% 1300px;
+	}
+  .main-div {
+    width: 600px;
+    font-size: 16px;
+  }
+  .Personal,
+  .Educatinal-Qualification,
+  .Others {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .personal-child,.Educatinal-child,.Others-child {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+  }
+  input#gender,
+input#gender1,
+input#hobby,
+input#hobby1 {
+  display: inline-flex; 
+  justify-content: space-between;
+  margin-left: 25px; 
+  margin-top: -15px;
+}
+  input#fileInput {
+	  display: flex;
+	  justify-content: center;
+	  text-align: center;
+    margin-left: 220px;
+  }
+  button {
+    width: 145px;
+    margin-top: 25px;
+  }
+select {
+	 width: calc(100% - 20px);
+	 margin-left: 14px;
+}
+input {
+	width: calc(100% - 20px)!important;
+}
+label {
+	margin-left: 15px;
+}
+textarea {
+	width: auto;
+}
+.error-container {
+    height: 10px; 
+	margin-bottom: 22px;
+	padding-left: 25px;
+	
+}
+}
+

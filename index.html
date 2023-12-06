@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="QuickConnect.css">
+    <script src="QuickConnect.js"></script>
+</head>
+
+<body>
+    <div class="main-div">
+        <form name="myform" method="post" action="#" onsubmit="return validateform()">
+            <h4>Personal Details</h4>
+            <div class="Personal">
+                <div class="personal-child">
+                    <label for="name">Name:</label>
+                    <input type="text" onkeydown="checkName()" onkeyup="checkName()" id="name" name="name"></input><br>
+                    <div class="error-container"><span id="username"></span></div>
+                    </input>
+                </div>
+                <div class="personal-child">
+                    <label for="password">Password:</label>
+                    <input type="password" onkeydown="checkPasword()" onkeyup="checkPassword()" id="password" name="password"><br>
+                    <div class="error-container"><span id="userpassword"></span></div>
+                    </input>
+                </div>
+            </div>
+            <div class="Personal">
+			<div class="personal-child">
+                <label for="text">E-mail Id:</label>
+                <input type="text" onkeydown="checkEmail()" onkeyup="checkEmail()" id="text" name="email"><br>
+                <div class="error-container"><span id="useremail"></span></div>
+                </input>
+				</div>
+				<div class="personal-child">
+                <label for="contact">Contact no#:</label>
+                <input type="text" onkeydown="checkNumber()" onkeyup="checkNumber()" name="num" id="contact"><br>
+                <div class="error-container"><span id="numloc"></span></div>
+                </input>
+				</div>
+            </div>
+            <h4>Educational Qualification</h4>
+            <div class="Educatinal-Qualification">
+			<div class="Educatinal-child">
+                <label for="degree">Degree:</label>
+                <select id="degree" onchange="checkDegree()" name="degree">
+                    <option value="YES" selected>--Select Your Degree--</option>
+                    <option value="NO">Computer Science</option>
+                </select>
+                <div class="error-container"><span id="yourdegree"></span></div>
+				</div>
+				<div class="Educatinal-child">
+                <label for="Engeeneering">Engeeneering:</label>
+                <select id="Engeeneering" onchange="checkEngeeneering()" name="Engeeneering">
+                    <option value="Yes">--Select Field--</option>
+                    <option value="No">MechenicalEngeeneir</option>
+                </select>
+                <div class="error-container"><span id="yourfield"></span></div>
+				</div>
+            </div>
+			<h4>Others</h4>
+            <div class="Others">
+                <div class="Others-child">
+                <label for="gender">Gender:</label>
+				<br>
+				<label>Male</label>
+                <input type="radio" id="gender" onchange="checkGender()" name="gender" value="Male"></input>
+				<label>Female</label>
+                <input type="radio" id="gender1" onchange="checkGender()" name="gender" value="Female"></input>
+                <div class="error-container"><span id="yourgender"></span></div>
+                </div>
+                <div class="Others-child">
+                <label for="hobby">Hobbies:</label>
+				<br>
+				<label>Playing Chess</label>
+                <input type="checkbox" id="hobby" onchange="checkHobby()" name="hobby"></input>
+				<label>Reading Books</label>
+                <input type="checkbox" id="hobby1" onchange="checkHobby()" name="hobby"></input>
+                <div class="error-container"><span id="yourhobby"></span></div>
+            </div>
+            </div>
+            <h4>Address</h4>
+                       <textarea type="text" id="mytextarea" onchange="checkTextarea()"  name="Address" rows="4" cols="36">
+</textarea>
+            <div class="error-container"><span id="youraddress"></span></div>
+            <br>
+            <label for="fileInput">Attach a Resume:</label>
+            <input type="file" id="fileInput" onchange="checkFile()" name="file"><br>
+            <span id="yourresume"></span>
+            </input>
+			<br>
+            <button type="submit" id="submit" name="submit">SUBMIT<i class="fa-solid fa-circle-arrow-right"></i></button>
+        </form>
+    </div>
+</body>
+</html>
+
